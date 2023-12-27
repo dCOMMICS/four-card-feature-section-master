@@ -60,7 +60,7 @@ h1,
 h2,
 h3{
     color: black;
-    line-height: 1.1;
+    line-height: 1.2;
 }
 
 .wrapper{
@@ -107,11 +107,28 @@ header{
 }
 
 .card{
+    ---br: 0.325rem;
     padding: 2rem;
     border-radius: 0.5rem;
     border-top: 8px solid #d1e1e1;
     /* background: #efefef ; */
     box-shadow: 0  0.5rem 1rem -.5rem rgba(0 0 0 / 0.2);
+}
+
+.card_title{
+    font-size: 1.7rem;
+    margin: 0;
+}
+h1 {
+    font-weight: var(--fw-light);
+    font-size: var(--fs-900);
+}
+h1 span{
+    font-weight: var(--fw-bold);
+}
+
+header > p {
+    font-size: 1.2rem;
 }
 
 /* .card:nth-child(1) {
