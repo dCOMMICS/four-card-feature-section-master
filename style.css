@@ -108,6 +108,12 @@ header{
 
 .card{
     padding: 2rem;
+    border-radius: 0.5rem;
+    border-top: 8px solid #d1e1e1;
     /* background: #efefef ; */
     box-shadow: 0  0.5rem 1rem -.5rem rgba(0 0 0 / 0.2);
+}
+
+.card:nth-child(1) {
+    border-color: #d1e1e1;
 }
