@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap');
+
+/* font-family: 'Poppins', sans-serif; 
+
+- Very Dark Blue: hsl(234, 12%, 34%)
+- Grayish Blue: hsl(229, 6%, 66%)
+- Very Light Gray: hsl(0, 0%, 98%)
+
+
+*/
+
+:root {
+    --ff-sans: 'Poppins, sans-serif';
+    --fw-light: 200;
+    --fw-normal: 400;
+    --fw-bold: 600;
+
+
+    --fs-400: 1rem;
+    --fs-900: 2.5rem;
+    --fs-500: 1.25rem;
+    --fs-600: 1.625rem;
+
+
+    --clr-neutral-900: hsl(234,12%, 34%);
+    --clr-neutral-400: hsl(229,6%, 66%);
+    --clr-neutral-900: hsl(0,0%, 98%);
+
+
+    --clr-teal: hsl(180,58%,56%);
+       --clr-red: hsl(0,75%,60%);
+          --clr-yellow: hsl(34,89%,65%);
+             --clr-blue: hsl(212,75%,62%);
+
+             
+
+
+}
