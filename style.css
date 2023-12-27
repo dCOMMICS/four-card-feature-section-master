@@ -32,7 +32,42 @@
           --clr-yellow: hsl(34,89%,65%);
              --clr-blue: hsl(212,75%,62%);
 
-             
 
 
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box ;
+
+}
+
+body{
+    margin: 0;
+}
+
+html{
+ font-family: var(--ff-sans);
+   font-weight: var(--fw-normal);
+   line-height: 1.7rem; 
+   color: var(--clr-neutral-400);
+}
+
+h1,
+h2,
+h3{
+    color: var(--clr-neutral-900);
+    line-height: 1.1rem;
+}
+
+.wrapper{
+    max-width: 1100px;
+    margin-inline: auto;
+}
+
+
+.wrapper--narrow{
+    max-width: 550px;
 }
