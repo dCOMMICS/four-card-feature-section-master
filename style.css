@@ -49,17 +49,17 @@ body{
 }
 
 html{
- font-family: var(--ff-sans);
+    font-family: 'Poppins', sans-serif;
    font-weight: var(--fw-normal);
-   line-height: 1.7rem; 
-   color: var(--clr-neutral-400);
+   line-height: 1.7; 
+   color: black;
 }
 
 h1,
 h2,
 h3{
-    color: var(--clr-neutral-900);
-    line-height: 1.1rem;
+    color: black;
+    line-height: 1.1;
 }
 
 .wrapper{
@@ -70,4 +70,16 @@ h3{
 
 .wrapper--narrow{
     max-width: 550px;
+}
+
+
+header{
+    text-align: center;
+    margin-block: 6rem;
+    border:2px solid red;
+
+}
+
+main{
+    border: 5px solid lime;
 }
